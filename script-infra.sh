@@ -36,4 +36,4 @@ useradd josefina -m -s /bin/bash -p $(openssl passwd -crypt Senha123) -G GRP_SEC
 useradd amanda -m -s /bin/bash -p $(openssl passwd -crypt Senha123) -G GRP_SEC
 useradd rogerio -m -s /bin/bash -p $(openssl passwd -crypt Senha123) -G GRP_SEC
 
-echo "Infraestrutura configurada com sucesso! ✅"
+echo "Infraestrutura configurada com sucesso!"
